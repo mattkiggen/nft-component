@@ -50,7 +50,6 @@ img {
   width: 31rem;
   height: 31rem;
   border-radius: 1rem;
-  background-color: hsl(178, 100%, 50%);
   top: 0;
   transition: 0.3s ease;
 }
@@ -64,12 +63,9 @@ img {
 }
 
 .overlay:hover {
-  opacity: 0.6;
-  cursor: pointer;
-}
-
-.overlay svg:hover {
+  background-color: hsla(178, 100%, 50%, 0.6);
   opacity: 1;
+  cursor: pointer;
 }
 
 h2 {
