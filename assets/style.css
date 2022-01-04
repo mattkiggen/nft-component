@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Outfit', sans-serif;
+  background: hsl(217, 54%, 11%);
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+article {
+  width: 35rem;
+  background: hsl(216, 50%, 16%);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  width: 31rem;
+  height: 31rem;
+  border-radius: 1rem;
+  background-color: hsl(178, 100%, 50%);
+  top: 0;
+  transition: 0.3s ease;
+}
+
+.overlay svg {
+  width: 4.8rem;
+  height: 4.8rem;
+  position: absolute;
+  top: calc(50% - 2.4rem);
+  left: calc(50% - 2.4rem);
+}
+
+.overlay:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.overlay svg:hover {
+  opacity: 1;
+}
+
+h2 {
+  margin: 2rem 0;
+}
+
+h2 a {
+  color: #fff;
+}
+
+.description {
+  color: hsl(215, 51%, 70%);
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: hsl(215, 51%, 70%);
+  margin: 2rem 0;
+}
+
+.meta span {
+  display: flex;
+  align-items: center;
+}
+
+.meta span svg {
+  margin-right: 1rem;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  border-top: 0.1rem solid hsl(215, 32%, 27%);
+  padding-top: 2rem;
+  font-size: 1.4rem;
+  color: hsl(215, 51%, 70%);
+}
+
+.author img {
+  width: 3rem;
+  border: 0.2rem solid #fff;
+  border-radius: 100%;
+  margin-right: 1rem;
+}
+
+.author a {
+  color: #fff;
+}
