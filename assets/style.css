@@ -1,3 +1,4 @@
+/* DEFAULTS */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -19,6 +20,7 @@ body {
   align-items: center;
 }
 
+/* LINKS */
 a {
   text-decoration: none;
 }
@@ -27,6 +29,7 @@ a:hover {
   color: hsl(178, 100%, 50%);
 }
 
+/* CARD  */
 article {
   width: 35rem;
   background: hsl(216, 50%, 16%);
